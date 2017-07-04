@@ -6,7 +6,7 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-namespace whut.stuplaza.COMMON
+namespace COMMON
 {
     public static class SqlHelper
     {
