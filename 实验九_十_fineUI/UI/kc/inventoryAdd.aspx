@@ -57,7 +57,8 @@
                             <Items>
                                 <f:Label ID="lbl_acc" runat="server" Text="审核:" />
                                 <f:DropDownList runat="server" ID="ddl_AssState" Margin="0 0 0 75px">
-                                    <f:ListItem Text="通过" Value="通过" Selected="true" />
+                                    <f:ListItem Text="待审批" Value="待审批" Selected="true" />
+                                    <f:ListItem Text="通过" Value="通过"  />
                                     <f:ListItem Text="拒绝" Value="拒绝" />
                                     <f:ListItem Text="存疑" Value="存疑" />
                                 </f:DropDownList>
